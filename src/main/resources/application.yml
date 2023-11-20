@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 2023
+    url: jdbc:mysql://127.0.0.1:3306/my_app?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=true
